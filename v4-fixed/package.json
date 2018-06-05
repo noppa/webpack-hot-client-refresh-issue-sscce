@@ -1,0 +1,19 @@
+{
+  "name": "webpack-hot-client-refresh-issue-sscce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "noppa",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "koa": "^2.5.1",
+    "koa-webpack": "^5.0.2",
+    "webpack": "^4.11.0",
+    "webpack-hot-client": "file:../../webpack-hot-client"
+  }
+}
