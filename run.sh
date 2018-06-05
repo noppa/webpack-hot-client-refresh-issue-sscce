@@ -3,9 +3,10 @@
 # "v3" or "v4"
 LIB_VERSION=$1
 
-if [ -z $LIB_VERSION ]
+if ! [[ $LIB_VERSION == "v3" || $LIB_VERSION == "v4" ]]
 then
-  echo "Provide the name of the test to run (v3, v3-fixed, etc)"
+  echo "No lib version provided. Usage: "
+  echo "./run.sh v3|v4 [fixed]"
   exit 1
 fi
 
