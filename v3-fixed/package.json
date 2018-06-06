@@ -12,7 +12,7 @@
   "private": true,
   "devDependencies": {
     "webpack": "^4.11.0",
-    "webpack-hot-client": "file:../../webpack-hot-client",
+    "webpack-hot-client": "git://github.com/noppa/webpack-hot-client.git#demo/v3/socket-clients-size-check",
     "webpack-serve": "^1.0.2"
   }
 }
