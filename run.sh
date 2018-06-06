@@ -10,6 +10,9 @@ then
   exit 1
 fi
 
+rm testbed/package-lock.json
+rm -rf testbed/node_modules
+
 # conditionally add the -fixed suffix
 TEST_DIR=$LIB_VERSION && [[ $2 == "fixed" ]] && TEST_DIR="$LIB_VERSION-fixed"
 
